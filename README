@@ -1,0 +1,5 @@
+gcc compile using lua5.2:
+	gcc test.c -o test.so -I/usr/include/lua5.2 -llua5.2 -shared -fpic
+
+execute example:
+	lua example.lua
