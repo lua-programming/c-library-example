@@ -1,6 +1,5 @@
-// if we're using c++
+// if we're using g++ compiler
 #ifdef __cplusplus
-    #include "lua.hpp"
     extern "C" {
 #endif
 #include <stdio.h>
